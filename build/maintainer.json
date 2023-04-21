@@ -1210,6 +1210,9 @@
     "/csdn/blog": [
         "Jkker"
     ],
+    "/cssn/iolaw/:section?": [
+        "HankChow"
+    ],
     "/cste/:id?": [
         "nczitzk"
     ],
@@ -1361,6 +1364,9 @@
     ],
     "/dlsite/new/:type": [
         "cssxsh"
+    ],
+    "/dlsite/:path+": [
+        "nczitzk"
     ],
     "/dmzj/news/:category?": [
         "vzz64"
@@ -4355,6 +4361,15 @@
     ],
     "/scnu/library": [
         "fengkx"
+    ],
+    "/scnu/physics-school-announcements": [
+        "Shinonome28"
+    ],
+    "/scnu/physics-school-news": [
+        "Shinonome28"
+    ],
+    "/scnu/physics-school-research-news": [
+        "Shinonome28"
     ],
     "/scnu/ss": [
         "shengmaosu"
