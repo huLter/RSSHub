@@ -2322,6 +2322,18 @@
       }
     ]
   },
+  "bad.news": {
+    "_name": "Bad.news",
+    ".": [
+      {
+        "title": "通用",
+        "docs": "https://docs.rsshub.app/new-media.html#bad-news-tong-yong",
+        "source": [
+          "/"
+        ]
+      }
+    ]
+  },
   "baidu.com": {
     "_name": "百度",
     "gushitong": [
@@ -3320,6 +3332,29 @@
           "/"
         ],
         "target": "/bluestacks/release/5"
+      }
+    ]
+  },
+  "bmkg.go.id": {
+    "_name": "BMKG 印尼气象气候和地球物理局",
+    ".": [
+      {
+        "title": "最近的地震",
+        "docs": "https://docs.rsshub.app/new-media.html#BMKG-yin-ni-qi-xiang-qi-hou-he-di-qiu-wu-li-ju",
+        "source": [
+          "/",
+          "/gempabumi-terkini.html"
+        ],
+        "target": "/bmkg/earthquake"
+      },
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/new-media.html#BMKG-yin-ni-qi-xiang-qi-hou-he-di-qiu-wu-li-ju",
+        "source": [
+          "/",
+          "/berita"
+        ],
+        "target": "/bmkg/news"
       }
     ]
   },
@@ -4810,6 +4845,15 @@
       }
     ]
   },
+  "comicat.org": {
+    "_name": "Comicat",
+    ".": [
+      {
+        "title": "搜索关键词",
+        "docs": "https://docs.rsshub.app/anime.html#comicat"
+      }
+    ]
+  },
   "comicskingdom.com": {
     "_name": "Comics Kingdom",
     ".": [
@@ -5497,6 +5541,17 @@
       }
     ]
   },
+  "devolverdigital.com": {
+    "_name": "DevolverDigital",
+    ".": [
+      {
+        "title": "官方博客",
+        "docs": "https://docs.rsshub.app/blog.html#devolverdigital",
+        "source": "/blog",
+        "target": "/devolverdigital/blog"
+      }
+    ]
+  },
   "dgjyw.com": {
     "_name": "东莞教研网",
     ".": [
@@ -5565,10 +5620,10 @@
         "title": "Channel Messages",
         "docs": "https://docs.rsshub.app/en/social-media.html#discord",
         "source": [
-          "/channels/:guildId/:channelID/:messageID",
-          "/channels/:guildId/:channelID"
+          "/channels/:guildId/:channelId/:messageID",
+          "/channels/:guildId/:channelId"
         ],
-        "target": "/discord/channel/:channelID"
+        "target": "/discord/channel/:channelId"
       }
     ]
   },
@@ -7343,6 +7398,54 @@
       }
     ]
   },
+  "followin.io": {
+    "_name": "Followin",
+    ".": [
+      {
+        "title": "首页",
+        "docs": "https://docs.rsshub.app/finance.html#followin",
+        "source": [
+          "/:lang"
+        ]
+      },
+      {
+        "title": "快讯",
+        "docs": "https://docs.rsshub.app/finance.html#followin",
+        "source": [
+          "/:lang?/news",
+          "/news"
+        ],
+        "target": "/followin/news/:lang?"
+      },
+      {
+        "title": "KOL",
+        "docs": "https://docs.rsshub.app/finance.html#followin",
+        "source": [
+          "/:lang/kol/:kolId",
+          "/kol/:kolId"
+        ],
+        "target": "/followin/kol/:kolId/:lang?"
+      },
+      {
+        "title": "话题",
+        "docs": "https://docs.rsshub.app/finance.html#followin",
+        "source": [
+          "/:lang/topic/:topicId",
+          "/topic/:topicId"
+        ],
+        "target": "/followin/topic/:topicId/:lang?"
+      },
+      {
+        "title": "标签",
+        "docs": "https://docs.rsshub.app/finance.html#followin",
+        "source": [
+          "/:lang/tag/:tagId",
+          "/tag/:tagId"
+        ],
+        "target": "/followin/tag/:tagId/:lang?"
+      }
+    ]
+  },
   "foresightnews.pro": {
     "_name": "Foresight News",
     ".": [
@@ -7516,6 +7619,20 @@
           "/"
         ],
         "target": "/secnews/index"
+      }
+    ]
+  },
+  "futunn.com": {
+    "_name": "富途牛牛",
+    "news": [
+      {
+        "title": "要闻",
+        "docs": "https://docs.rsshub.app/finance.html#fu-tu-niu-niu",
+        "source": [
+          "/main",
+          "/"
+        ],
+        "target": "/futunn/main"
       }
     ]
   },
@@ -16034,6 +16151,19 @@
       }
     ]
   },
+  "notion.so": {
+    "_name": "Notion",
+    ".": [
+      {
+        "title": "Database",
+        "docs": "https://docs.rsshub.app/other.html#notion",
+        "source": [
+          "/:id"
+        ],
+        "target": "/notion/database/:id"
+      }
+    ]
+  },
   "news.now.com": {
     "_name": "Now 新聞",
     ".": [
@@ -20508,6 +20638,27 @@
       }
     ]
   },
+  "techpowerup.com": {
+    "_name": "TechPowerUp",
+    ".": [
+      {
+        "title": "Latest Content",
+        "docs": "https://docs.rsshub.app/en/new-media.html#techpowerup",
+        "source": [
+          "/"
+        ],
+        "target": "/techpowerup"
+      },
+      {
+        "title": "Reviews",
+        "docs": "https://docs.rsshub.app/en/new-media.html#techpowerup",
+        "source": [
+          "/review/search",
+          "/review"
+        ]
+      }
+    ]
+  },
   "telecompaper.com": {
     "_name": "Telecompaper",
     ".": [
@@ -21009,6 +21160,19 @@
         "source": [
           "/*"
         ]
+      }
+    ]
+  },
+  "sz-water.com.cn": {
+    "_name": "停水通知",
+    ".": [
+      {
+        "title": "深圳市",
+        "docs": "https://docs.rsshub.app/forecast.html#ting-shui-tong-zhi",
+        "source": [
+          "/*"
+        ],
+        "target": "/tingshuitz/shenzhen"
       }
     ]
   },
