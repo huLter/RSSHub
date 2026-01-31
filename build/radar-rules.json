@@ -13401,30 +13401,6 @@
       }
     ]
   },
-  "dailypush.dev": {
-    "_name": "DailyPush",
-    ".": [
-      {
-        "title": "All",
-        "docs": "https://docs.rsshub.app/routes/programming",
-        "source": [
-          "/",
-          "/latest"
-        ],
-        "target": "/dailypush/"
-      },
-      {
-        "title": "Tag",
-        "docs": "https://docs.rsshub.app/routes/programming",
-        "source": [
-          "/:tag/trending",
-          "/:tag/latest",
-          "/:tag"
-        ],
-        "target": "/dailypush/tag/:tag/:sort?"
-      }
-    ]
-  },
   "daoxuan.cc": {
     "_name": "道宣的窝",
     ".": [
@@ -20888,12 +20864,12 @@
     "_name": "深圳市罗湖区人民政府",
     ".": [
       {
-        "title": "司工作进展",
+        "title": "发展规划司",
         "docs": "https://docs.rsshub.app/routes/government",
         "source": [
-          "/sjzz/:bureau/index.htm"
+          "/sjzz/ghs/"
         ],
-        "target": "/gov/nea/sjzz/:bureau"
+        "target": "/gov/nea/sjzz/ghs"
       }
     ]
   },
@@ -34912,9 +34888,9 @@
         "title": "南信大信息公告栏",
         "docs": "https://docs.rsshub.app/routes/university",
         "source": [
-          "/:filename"
+          "/:category/list.htm"
         ],
-        "target": "/nuistparams=>{const filename=params.filename.replace(/\\.htm$/i,\"\");return`/nuist${filename===\"index\"?\"/bulletin\":`/bulletin/${filename}`}`}"
+        "target": "/nuist/bulletin/:category"
       }
     ],
     "lib": [
@@ -45052,15 +45028,7 @@
   },
   "tiktok.com": {
     "_name": "TikTok",
-    "www": [
-      {
-        "title": "Live",
-        "docs": "https://docs.rsshub.app/routes/social-media",
-        "source": [
-          "/:user/live"
-        ],
-        "target": "/tiktok/live/:user"
-      },
+    ".": [
       {
         "title": "User",
         "docs": "https://docs.rsshub.app/routes/social-media",
@@ -47907,20 +47875,6 @@
       }
     ]
   },
-  "xjtlu.edu.cn": {
-    "_name": "Xi'an Jiaotong-Liverpool University",
-    "www": [
-      {
-        "title": "News",
-        "docs": "https://docs.rsshub.app/routes/university",
-        "source": [
-          "/:lang/about/news/all-news",
-          "/:lang/news"
-        ],
-        "target": "/xjtlu/news/:lang"
-      }
-    ]
-  },
   "xjtu.edu.cn": {
     "_name": "西安交通大学",
     "ee": [
@@ -49288,14 +49242,6 @@
         "target": "/zzu/jwc/:type"
       },
       {
-        "title": "郑大数学与统计学院",
-        "docs": "https://docs.rsshub.app/routes/university",
-        "source": [
-          "/math/"
-        ],
-        "target": "/zzu/math/:type"
-      },
-      {
         "title": "郑大人事部",
         "docs": "https://docs.rsshub.app/routes/university",
         "source": [
@@ -49318,14 +49264,6 @@
           "/student/"
         ],
         "target": "/zzu/student/:type"
-      },
-      {
-        "title": "郑大商学院",
-        "docs": "https://docs.rsshub.app/routes/university",
-        "source": [
-          "/sxy/"
-        ],
-        "target": "/zzu/sxy/:type"
       },
       {
         "title": "郑大党委统战部",
