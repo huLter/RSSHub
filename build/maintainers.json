@@ -184,6 +184,9 @@
   "/423down/:category{.+}?": [
     "nczitzk"
   ],
+  "/4chan/:board/catalog/:routeParams?": [
+    "heisenshark"
+  ],
   "/4gamers/": [
     "TonyRL"
   ],
@@ -4715,6 +4718,9 @@
   ],
   "/iwara/users/:username/:type?": [
     "Fatpandac"
+  ],
+  "/iwara/ranking/:type?/:sort?/:rating?": [
+    "CaoMeiYouRen233"
   ],
   "/iwara/subscriptions": [
     "FeCCC"
